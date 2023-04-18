@@ -1,0 +1,45 @@
+-- create database demoquanlysv;
+-- use demoquanlysv;
+-- create table student(
+-- studentId int primary key auto_increment,
+-- studentname varchar(255) unique,
+-- birthdate date,
+-- sex tinyint,
+-- born varchar(255)
+-- );
+-- create table subject(
+-- subjectId int primary key auto_increment,
+-- subjectname varchar(255),
+-- oefficient varchar(255)
+-- );
+ -- INSERT INTO student(studentname,birthdate,sex,born) 
+--  values 
+--  ("hung","1999-3-21",1,"ha tinh"),
+--  ("khoa","2000-3-25",0,"da nang"),
+--   ("nhan","1999-3-2",1,"ha noi"),
+--    ("lam","2004-3-25",0,"ha tinh"),
+--     ("hieu","1999-3-3",0,"ha tinh"),
+--      ("nam1","1999-3-25",1,"ha tinh"),
+--       ("nam2","1999-3-25",1,"ha tinh"),
+--        ("nam3","1999-3-25",1,"ha tinh"),
+--         ("nam4","1999-3-25",1,"ha tinh"),
+--          ("nam5","1999-3-25",1,"ha tinh"),
+--           ("nam6","1999-3-25",1,"ha tinh"),
+--            ("nam7","1999-3-25",1,"ha tinh"),
+--             ("nam8","1999-3-25",1,"ha tinh"),
+--              ("nam11","1999-3-25",1,"ha tinh"),
+--               ("nam9","1999-3-25",1,"ha tinh")
+--  ;
+-- ALTER TABLE subject
+-- MODIFY COLUMN oefficient float;
+-- insert into subject(subjectname,oefficient) values
+-- ("toan",4),
+-- ("ly",5),
+-- ("hoa",6),
+-- ("van",7),
+-- ("su",5)
+-- ;
+-- alter table class
+-- modify column classname varchar(255) unique;
+-- select * from demoquanlysv.student;
+select * from demoquanlysv.class;
